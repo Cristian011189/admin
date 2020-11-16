@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Calculo</title>
+		<link rel="shortcut icon" href="img/atomo.png" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header"><br><br>
+					<center><div class="cubo"><br><br>
+						<img src="img/atomo.png" alt="error">
+						<form>
+						<p>Usuario</p> <input class="form-control" type="text" placeholder="Usuario">
+            <p>Contraseña</p> <input class="form-control" type="text" placeholder="Contraseña">
+						<p>Contraseña nueva</p> <input class="form-control" type="text" placeholder="Contraseña nueva">
+
+								<br><button type="submit" class="btn btn-outline-primary">Pedir </button><br>
+
+					      <br><button type="submit" class="btn btn-outline-primary">Cambiar</button><br><br>
+
+					</form>
+				</div></center>
+					</header>
+
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+[
+
+        {
+            
+            "cliente":"pedro",
+            "fecha":"2010-20-27",
+            "folio":"6581",
+            "cantidad":"3259",
+            "unidad":"69742",
+            "nombre":"cubreboca",
+            "descuento":"3%",
+            "iva":"no",
+            "cu":"12.27",
+            "total":"12.27",
+            "pago":"efectivo"
+           
+
+        },
+        
+        {
+            "cliente":"juan",
+            "fecha":"2010-21-27",
+            "folio":"689781",
+            "cantidad":"3259",
+            "unidad":"69742",
+            "nombre":"cubreboca",
+            "descuento":"36%",
+            "iva":"no",
+            "cu":"12.27",
+            "total":"12.27",
+            "pago":"efectivo"
+           
+        }
+
+]
